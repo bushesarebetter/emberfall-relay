@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: emberfall-relay
+    runtime: node
+    plan: free
+    region: virginia
+    buildCommand: npm install
+    startCommand: node relay.js
+    healthCheckPath: /
+    autoDeploy: true
