@@ -1,0 +1,6 @@
+{
+  "name": "emberfall-relay",
+  "private": true,
+  "scripts": { "start": "node relay.js" },
+  "dependencies": { "ws": "8.18.0" }
+}
